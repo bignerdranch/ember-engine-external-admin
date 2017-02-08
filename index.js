@@ -1,6 +1,7 @@
-/* jshint node: true */
+/*jshint node:true*/
+const EngineAddon = require('ember-engines/lib/engine-addon');
 'use strict';
 
-module.exports = {
+module.exports = EngineAddon.extend({
   name: 'external-admin'
 };

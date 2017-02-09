@@ -10,8 +10,7 @@ const Eng = Engine.extend({
   dependencies: {
     externalRoutes: [
       'home',
-      'blog',
-      'faqs'
+      'blog'
     ]
   }
 
